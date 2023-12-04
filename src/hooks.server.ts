@@ -30,11 +30,12 @@ export const handle = SvelteKitAuth(async (event) => {
 					if (credentials.password == jsonUser.password) {
 						result = true;
 					}
+					
 
 					if (result && jsonUser.active == true && jsonUser.role != 'Admin') {
 						return {
 							email: jsonUser.email,
-							name: jsonUser.firstname + '' +jsonUser.lastname
+							name: jsonUser.firstname + " " +jsonUser.lastname
 						} as User;
 					} else {
 						return null;

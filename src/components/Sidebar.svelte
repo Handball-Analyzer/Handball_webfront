@@ -19,7 +19,7 @@
 		<li><a href="/club" class=""><div class="icon mr-2"><FaRegBuilding/></div>Club</a></li>
 		<li><a href="/team" class=""><div class="icon mr-2"><IoMdPeople/></div>Teams</a></li>
 		<li><a href="/statistic" class=""><div class="icon mr-2"><IoMdStats/></div>Statistics</a></li>
-		<li><a href="/traing" class=""><div class="icon mr-2"><FaClipboard/></div>Training</a></li>
+		<li><a href="/training" class=""><div class="icon mr-2"><FaClipboard/></div>Training</a></li>
 		<li><a href="/game"class=""><div class="icon mr-2"><FaGamepad/></div>Game</a></li>
 		<li><a href="/message"class=""><div class="icon mr-2"><FaComments/></div>Messages</a></li>
         <li><a href="/profil"class=""><div class="icon mr-2"><FaUser/></div>Profil</a></li>

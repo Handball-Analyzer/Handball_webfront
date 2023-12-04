@@ -1,4 +1,5 @@
 import type { UUID } from 'crypto';
+import type { Club } from './Club';
 
 export type Team ={
 
@@ -7,5 +8,6 @@ export type Team ={
     age_group: String,
     number: Number,
     season: String,
+    club:Club
 
 }

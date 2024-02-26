@@ -5,6 +5,7 @@ import type { PageServerLoad, Actions } from './$types';
 export const load = (async ({ locals }) => {
 	const session = await locals.getSession();
 	if (!session?.user) throw redirect(303, '/');
-
+	console.log("test")
 	return {};
+	
 }) satisfies PageServerLoad;

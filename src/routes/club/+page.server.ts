@@ -8,4 +8,5 @@ export const load = (async ({ locals }) => {
 	console.log("test")
 	return {};
 	
+	
 }) satisfies PageServerLoad;
